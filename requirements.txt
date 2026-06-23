@@ -1,0 +1,7 @@
+langgraph
+langchain-core
+chromadb
+sentence-transformers
+streamlit
+requests
+pydantic
