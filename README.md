@@ -45,6 +45,14 @@ Each agent is an independent LangGraph node with its own role, prompt, and input
 - **Tools** - SEC EDGAR API, Wikipedia/news search
 - **UI** - Streamlit
 
+
+## Results
+
+- Reviewer enforced confidence threshold (0.4) and rejection limit (≥2) across all routing paths
+- Rejected 28.3% of low-confidence agent outputs across a 20-question evaluation (17/60 subtasks)
+- 4 tasks escalated to human review due to repeated rejections or confidence below 0.3
+- All 7 reviewer unit tests pass (`tests/test_reviewer.py`) — covering auto-reject, LLM-reject, escalation, and approval paths
+
 ## Setup
 
 Prerequisites: Python 3.12, Docker Desktop, Ollama

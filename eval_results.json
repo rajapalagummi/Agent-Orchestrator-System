@@ -1,0 +1,11 @@
+{
+  "summary": {
+    "total_questions": 20,
+    "total_subtasks_reviewed": 60,
+    "approved": 43,
+    "rejected": 17,
+    "escalated_to_human": 4,
+    "rejection_rate_pct": 28.3
+  },
+  "note": "Simulated run — Ollama/phi3:mini required for live inference. Reviewer logic verified by 7 unit tests (tests/test_reviewer.py). Confidence threshold: 0.4, rejection escalation limit: 2."
+}
