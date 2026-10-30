@@ -1,0 +1,710 @@
+{
+  "summary": {
+    "total_questions": 20,
+    "total_subtasks_reviewed": 62,
+    "approved": 4,
+    "rejected": 58,
+    "escalated_to_human": 20,
+    "rejection_rate_pct": 93.5
+  },
+  "details": [
+    {
+      "question": "What are Apple's latest quarterly revenue figures?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The summary incorrectly states 'FY2012 quarter' instead of the correct fiscal year or specific timeframe.",
+            "No direct revenue figures are provided in the synthesis; it only indicates a trend without concrete numbers."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The agent's output does not provide the most recent quarterly revenue figures as it states that these are 'not directly provided in these sources.'"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "Summarize Tesla's risk factors from their most recent 10-K.",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 1.0,
+          "issues": [
+            "The agent's output does not specifically mention the risks related to maintaining high production volumes and ensuring quality control amidst rapid growth.",
+            "There is no explicit reference in the summary about managing capital expenditures effectively without overextending financially."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 1.0,
+          "issues": [
+            "The agent's output does not explicitly mention Tesla\u2019s debt levels or stockholder equity from the Form 10-K report.",
+            "While it is common knowledge that regulatory changes can impact vehicle standards and environmental compliance costs for EV manufacturers, this specific claim about potential risks due to evolving consumer preferences was not directly supported by Tesla's annual report."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "What is Microsoft's cloud revenue growth year over year?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 1.0,
+          "issues": [
+            "The agent's output does not provide specific numbers or percentages regarding Microsoft Azure's cloud revenue growth during the COVID-19 pandemic."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.4,
+          "issues": [
+            "The agent's output does not provide specific numbers for Microsoft Azure and Teams cloud revenues nor the annual percentage increase or decrease."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "What did the Federal Reserve say about interest rates in 2024?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The Federal Reserve's stance on interest rates for 2024 has not been explicitly stated in available sources.",
+            "Past rate cuts have had political implications which may influence the Fed's approach to maintaining economic stability during President Biden's term."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.6,
+          "issues": [
+            "The agent's output makes an inference about the Federal Reserve's stance on interest rates for 2024 which is not explicitly stated in any of the provided source material."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "Explain Amazon's operating income trends over the past two years.",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.6,
+          "issues": [
+            "The agent's output incorrectly cites sources related to U.S. student debt trends and components of GDP as relevant for Amazon's operating income analysis."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.6,
+          "issues": [
+            "The agent's output does not provide specific data or trends regarding Amazon's operating income fluctuations over the past two years. The source material only indicates that there have been fluctuations without detailing them.",
+            "While it is reasonable to infer potential impact from seasonal variations and global events, this inference was not directly supported by any specific findings in the provided sources."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "What are the main business segments of Alphabet Inc?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 1.0,
+          "issues": [
+            "The agent's output incorrectly suggests that Alphabet Inc. is primarily focused on internet-related services and products such as search engines, online advertising technologies, cloud computing etc., which are indeed part of the core business but not exclusively so.",
+            "Although Google hardware operations like Pixel phones and self-driving cars through Waymo fall under Alphabet Inc.'s umbrella, it's misleading to imply that these form a significant portion or main focus without specifying their relative size compared to other segments."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": true,
+          "confidence": 1.0,
+          "issues": [],
+          "rejection_count": 0,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "What acquisitions did Meta make in the last 12 months?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The agent's output incorrectly states that Oculus Rift allows various forms of communication like text, voice, video messaging and calls between users globally. This claim is not supported by the source material as it specifically mentions WhatsApp for these capabilities."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The specific deal values of the acquisitions are not mentioned in either source material."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "How does NVIDIA's data center revenue compare to gaming revenue?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 1.0,
+          "issues": [
+            "The agent's output incorrectly states that the prediction was highlighted on Jensen Huang's personal website with the introduction of Isaac. This claim is not supported by any source material provided."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.6,
+          "issues": [
+            "The agent's output does not provide specific figures comparing gaming and data center revenues from Nvidia.",
+            "There is no mention of the current revenue percentages or growth trends over time for either segment."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "What are the key risk factors for JPMorgan Chase?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The synthesis mentions 'Key risk factors for JPMorgan Chase' but does not provide specific details or data about their financial performance, market position, and regulatory issues."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The agent's output does not specify the nature of regulatory scrutiny and compliance risks related to JPMorgan Chase\u2019s involvement in alternative risk transfer systems like Credit Default Swaps (CDS).",
+            "There is no mention about ongoing regulation from bodies including ICE Clearing Corp., with whom JPMorgan Chase has a shareholding relationship, aimed at increasing transparency and reducing systemic risks within these markets."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "Summarize the competitive landscape for cloud storage providers.",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The summary mentions 'Open Energy System Models' as an example without providing a direct link or reference to the source material. This specific claim is not supported by any document provided for this task."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The agent's output implies that the market positioning of major players is influenced by their ability to adapt and respond effectively. However, this claim extends beyond what was provided in the source material which only mentioned flexible bidding strategies without directly linking them to specific influences on market positioning."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "What is OpenAI's reported valuation and funding history?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 1.0,
+          "issues": [
+            "The agent's output incorrectly implies that the $124M investment into Anthropic was directly related to OpenAI\u2019s reported valuation of US$852 billion in March 2026. The source material does not explicitly link these two events."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The agent's output does not provide a comprehensive overview of OpenAI\u2019s funding history and growth trajectory. It only mentions the most recent investment into Anthropic without detailing previous rounds or their amounts."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "How has Netflix subscriber growth trended recently?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The claim that Netflix lowered fees in 2007 to retain its customer base is not supported by the source material provided."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The agent's output mentions that Netflix has seen significant subscriber growth and reached over 325 million as of December 2025. However, the source material does not provide specific statistics or a timeline for this growth.",
+            "While it is stated in both sources that competitors drew business away from Netflix earlier years, no details are given about these competitors within the provided materials."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "What are the regulatory risks facing large US tech companies?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.4,
+          "issues": [
+            "The summary incorrectly states that the CEOs' anticipation for AI agents to become part of the workforce is a recent development. The source material does not specify when this was expressed."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.4,
+          "issues": [
+            "The agent's output mentions 'voluntary safety commitments made by these companies earlier this decade,' but the source material does not provide specific details regarding current regulations or how they directly affect AI agents in the workforce as of early 2025."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "Describe Boeing's recent financial performance and key challenges.",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The synthesis mentions 'recent financial performance has been impacted negatively', but the source material does not explicitly state this. It only indicates that Boeing's situation led to regulatory scrutiny and legal investigations."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 1.0,
+          "issues": [
+            "The agent's output mentions regulatory scrutinies and legal investigations leading to the FAA revoking some of Boeing's authority over airworthiness certification processes. However, this specific claim about the loss of authority is not explicitly stated in the source material provided."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        },
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "Supply chain issues are mentioned as a challenge for Boeing.",
+            "Regulatory hurdles with certification of its aircraft models like the Boeing 737 MAX due to noncompliance by suppliers is not explicitly stated in the source material."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "4"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "5"
+        }
+      ]
+    },
+    {
+      "question": "What are Pfizer's main revenue drivers post-pandemic?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The synthesis mentions 'record profits in several quarters afterward' without specifying the exact time frame or providing concrete financial figures. The agent\u2019s output does not contain any specific claims that are unsupported by source material."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": true,
+          "confidence": 1.0,
+          "issues": [],
+          "rejection_count": 0,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "How does Berkshire Hathaway allocate its investment portfolio?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The agent's output incorrectly suggests that Warren Buffett is the chairman emeritus and former CEO of Berkshire Hathaway. While he was a key figure in its history as both Chairman and CEO before retiring, this statement may imply current leadership roles which are not accurate."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The agent's output does not explicitly mention the distribution of assets across different geographical regions within Berkshire Hathaway\u2019s investment portfolio."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "What are the main segments of Goldman Sachs's business?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The agent's output does not provide specific details or data on financial performance and market trends for each segment within Goldman Sachs."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The agent's output incorrectly states that Goldman Sachs has 'undergone significant leadership changes with Andrea Orcel's appointment as CEO during March 2020.' The source material only mentions the appointment of Andrea Orcel without indicating any other concurrent or preceding major leadership changes."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "Describe the competitive dynamics in the semiconductor industry.",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": true,
+          "confidence": 0.4,
+          "issues": [],
+          "rejection_count": 0,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": true,
+          "confidence": 0.8,
+          "issues": [],
+          "rejection_count": 0,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "What ESG commitments has ExxonMobil made recently?",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The agent's output does not contain a specific claim about ExxonMobil making recent commitments in ESG-related matters. The source material provided no direct information or facts regarding such commitments."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    },
+    {
+      "question": "Summarize the key findings from a recent AI industry report.",
+      "status": "reviewed",
+      "needs_human_review": true,
+      "subtask_reviews": [
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The summary incorrectly states that the existential risk from AI is predicted to be significant within this century with half expected before 2061. The source material does not provide a specific timeline or percentage for when these risks are anticipated."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "1"
+        },
+        {
+          "approved": false,
+          "confidence": 0.1,
+          "issues": [
+            "Specialist self-reported confidence 0.1 below threshold 0.4"
+          ],
+          "rejection_count": 1,
+          "subtask_id": "2"
+        },
+        {
+          "approved": false,
+          "confidence": 0.8,
+          "issues": [
+            "The report predicts significant existential risks associated with artificial intelligence within this century without specifying the source material's prediction timeline."
+          ],
+          "rejection_count": 1,
+          "subtask_id": "3"
+        }
+      ]
+    }
+  ]
+}

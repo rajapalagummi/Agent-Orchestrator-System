@@ -37,7 +37,7 @@ Summarize the relevant findings in 2-3 sentences. Then on a new line write CONFI
 
 def document_agent(subtask_description: str, question: str, document_text: str = "") -> dict:
     if not document_text.strip():
-        return {"output": "No document provided for this task.", "confidence": 0.1, "sources": []}
+        return research_agent(subtask_description, question)
 
     facts = extract_document_facts(document_text)
     prompt = f"""Task: {subtask_description}

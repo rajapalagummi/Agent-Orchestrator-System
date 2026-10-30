@@ -49,8 +49,8 @@ Each agent is an independent LangGraph node with its own role, prompt, and input
 ## Results
 
 - Reviewer enforced confidence threshold (0.4) and rejection limit (≥2) across all routing paths
-- Rejected 28.3% of low-confidence agent outputs across a 20-question evaluation (17/60 subtasks)
-- 4 tasks escalated to human review due to repeated rejections or confidence below 0.3
+- Reviewer rejected 88.3% of agent outputs as unsupported by retrieved sources in a live 20-question evaluation (53/60 subtasks, Ollama phi3:mini)
+- Routing empty-document subtasks to the research agent cut human escalations from 20/20 to 1/20 (eval_results_no_document_routing.json vs eval_results.json)
 - All 7 reviewer unit tests pass (`tests/test_reviewer.py`) — covering auto-reject, LLM-reject, escalation, and approval paths
 
 ## Setup
